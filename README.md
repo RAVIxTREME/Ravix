@@ -7,9 +7,9 @@ A statically typed, interpreted programming language building in C++.
 int age = 18;
 
 if (age >= 18) {
-    print("Adult hai tu!");
+    print("you areAdult !");
 } else {
-    print("Chhota hai abhi!");
+    print("You are under 18!");
 }
 ```
 
@@ -65,7 +65,7 @@ Most CS students use programming languages without ever seeing how they're built
 
 It started as a learning exercise inspired by *Crafting Interpreters* by Robert Nystrom, and grew into a complete language with its own file extension and editor support.
 
-## Roadmap
+## Roadmap for me :)
 
 - [ ] Add `for` loops
 - [ ] Add arrays/lists
