@@ -1,8 +1,9 @@
 # Ravix
 
-A statically typed, interpreted programming language built from scratch in C++.
+A statically typed, interpreted programming language building in C++.
 
 ```rx
+//example 
 int age = 18;
 
 if (age >= 18) {
@@ -14,7 +15,7 @@ if (age >= 18) {
 
 ## About
 
-Ravix is a custom programming language with a C-style syntax, designed and implemented as a final-year diploma project (Computer Science Engineering). The goal was to understand how programming languages actually work under the hood — from raw source code to execution — by building one from the ground up rather than just using existing ones.
+Ravix is a custom programming language with a C-style syntax, designing and implementing as a final-year diploma project (Computer Science Engineering). The goal was to understand how programming languages actually work under the hood — from raw source code to execution — by building one from the ground up rather than just using existing ones.
 
 ## Features
 
@@ -26,7 +27,7 @@ Ravix is a custom programming language with a C-style syntax, designed and imple
 - Custom file extension: `.rx`
 - Syntax highlighting support in VS Code
 
-## Example
+## Temporary Example
 
 ```rx
 int add(int a, int b) {
@@ -50,7 +51,7 @@ while (i < 5) {
 
 ### Build
 ```bash
-g++ -std=c++17 -o ravix src/main.cpp src/lexer.cpp src/parser.cpp src/interpreter.cpp -I src
+//it will fill okay :)
 ```
 
 ### Run a Ravix program
